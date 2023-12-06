@@ -17,3 +17,5 @@ msmarco_msl128_hypotheses/
 saves/
 slurm-scripts/
 wandb/
+
+venv/
