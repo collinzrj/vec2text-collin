@@ -32,7 +32,13 @@ class InversionMaskedLogitsModel(transformers.PreTrainedModel):
     def __init__(self, config: InversionConfig):
         super().__init__(config=config)
 
+        self.config.is_decoder = True
+        self.config.add_cross_attention = True
         self.masked_lm = transformers.RobertaForMaskedLM.from_pretrained('roberta-base')
+        self.masked_lm.config.is_decoder = True
+        self.masked_lm.config.add_cross_attention = True
+        self.masked_lm.is_decoder = True
+        self.masked_lm.add_cross_attention = True
 
         bottleneck_dim = 1536
         self.embed_dim = 768
@@ -90,6 +96,6 @@ class InversionMaskedLogitsModel(transformers.PreTrainedModel):
             input_ids=input_ids,
             attention_mask=torch.ones((input_ids.shape[0], input_ids.shape[1])),
             labels=labels,
-            # encoder_hidden_states=logit_embeds,
-            # encoder_attention_mask=logit_attention_mask
+            encoder_hidden_states=logit_embeds,
+            encoder_attention_mask=logit_attention_mask
         )
