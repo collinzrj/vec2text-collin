@@ -19,3 +19,8 @@ slurm-scripts/
 wandb/
 
 venv/
+logits_dataset/
+logits_inversion_*
+*.log
+
+my_model/
