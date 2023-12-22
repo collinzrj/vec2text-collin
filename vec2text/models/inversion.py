@@ -163,6 +163,7 @@ class InversionModel(transformers.PreTrainedModel):
                 embeddings = mean_pool(hidden_state, attention_mask)
             else:
                 hidden_state = outputs.last_hidden_state
+                # Note: why do we need mean pool here?
                 embeddings = mean_pool(hidden_state, attention_mask)
             return embeddings
 

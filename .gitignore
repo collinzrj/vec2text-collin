@@ -19,6 +19,7 @@ slurm-scripts/
 wandb/
 
 venv/
+new_venv/
 logits_dataset/
 logits_inversion_*
 *.log

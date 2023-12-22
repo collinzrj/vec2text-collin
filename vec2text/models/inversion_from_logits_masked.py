@@ -18,6 +18,8 @@ from vec2text.models.model_utils import (
     mean_pool,
 )
 from vec2text.utils import embed_api
+from torch import Tensor
+import warnings
 
 logger = logging.getLogger(__name__)
 
@@ -40,10 +42,7 @@ class InversionMaskedLogitsModel(transformers.PreTrainedModel):
         masked_lm_config.is_decoder = True
         masked_lm_config.add_cross_attention = True
         self.masked_lm = transformers.RobertaForMaskedLM(masked_lm_config)
-        # self.masked_lm.config.is_decoder = True
-        # self.masked_lm.config.add_cross_attention = True
-        # self.masked_lm.is_decoder = True
-        # self.masked_lm.add_cross_attention = True
+        ## overwrite get_extended_attention_mask method
         self.use_logits = True
 
         bottleneck_dim = 1536

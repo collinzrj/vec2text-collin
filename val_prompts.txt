@@ -1,0 +1,500 @@
+0 Classify the following sentence: "She will be late to the party"</s>
+1 Keywords: founder, runway, walk What is a sentence that includes all these keywords?</s>
+2 This House believes that governments should prioritize renewable energy over traditional fossil fuels.</s>
+3 Produce a detailed sentence about a restaurant using the following words: name = Midsummer House, food = Contemporary European, priceRange = expensive, customer rating = 5 out of 5, area = Midsummer Common, familyFriendly = no, near = The River Cam</s>
+4 Read this article to learn more about the benefits of meditation</s>
+5 Given the set of words, determine if they are related to sports, food, health, politics, etc. output 1-5 for each category. Input: apple, android, windows, samsung, htc Output:</s>
+6 Describe an object and its function.</s>
+7 If "A little girl enjoying a frozen treat on the beach.", does it logically follow that "A girl is eating a frozen treat."? OPTIONS: - yes - it is not possible to tell - no</s>
+8 What are some of the biggest infrastructure projects that civil engineers have undertaken in recent years?</s>
+9 Question : Which Englishman was the very first footballer to score a goal for Liverpool in a European Cup Final, the year in question being 1977? Answer :</s>
+10 Rewrite this product description using active verbs: "Our product is designed to help you better manage your finances."</s>
+11 Construct a sentence with the word side. Hint: Use elephant, side, walk to restrict the output sentence.</s>
+12 Given that John Steinbeck's "Of Mice and Men" was published in 1937, can it be concluded that Steinbeck won the Nobel Prize in Literature that same year?</s>
+13 What are some ways to incorporate strength training into your workout routine?</s>
+14 Here's a complex question that requires someone to reason about the input, can you answer it? Which actor was born Steven James Anderson in 1964 and starred in the American action film the Package?</s>
+15 Describe the current shipping process used by Amazon</s>
+16 How has African-American music been received outside of the United States?</s>
+17 "no denying that burns is a filmmaker with a bright future ahead of him " How would the sentiment of this sentence be perceived? OPTIONS: - negative - positive</s>
+18 Do these two sentences mean the same thing? The government increased taxes on cigarettes. Taxes on cigarettes were raised by the government.</s>
+19 What is the fundamental plane of a globular cluster?</s>
+20 Design a system to detect potential problems before they happen. Input: Problem: A company has a large number of customers. The company wants to know if any customer is likely to cancel their service in the next month. Output:</s>
+21 Question: The Holy Roman Empire comprised of how many petty states? Is The Holy Roman Empire comprised many petty states numbering more than 300 around 1796. a good answer to this question? OPTIONS: - yes - no</s>
+22 Is the following sentence grammatically correct? They was playing soccer in the park. OPTIONS: - unacceptable - acceptable</s>
+23 Anumberofplantsweregrantedadeadlineextensionfortechnicalreasons,however. Please segment the words.</s>
+24 Please include spaces between the words: ThemostpopulartouristattractioninNewYorkisStatueofLiberty</s>
+25 Please help me find a good doctor. i have been suffering from heart disease for several years.</s>
+26 What is the role of secondary alcohols in organic synthesis?</s>
+27 - vc.u: lock with one combination. This is all lower case. Can you fix that?</s>
+28 What impact do workplace policies have on reducing unconscious bias, and how can they be improved?</s>
+29 Create a regular expression for matching email addresses.</s>
+30 the draw [for " big bad love " ] is a solid performance by arliss howard. What sentiment does the writer express for the movie?</s>
+31 List three common types of pasta.</s>
+32 Are the following two questions the same? How do you plot fractions on a graph? How can I plot fractions on a graph? OPTIONS: - no - yes</s>
+33 The bus driver stopped at every stop until it reached the final destination. In other words, the bus driver didn't. True or false?</s>
+34 What is the Charles 'Chick' Evans Memorial Scholarship?</s>
+35 CBO Causes and Consequences of the Trade An Overview. Does it follow that "An overview of the causes of CBO and of trade consequences. "? OPTIONS: - yes - it is not possible to tell - no</s>
+36 Which is an appropriate title for this article? IBM #39;s intent to purchase Venetica Corp., which it announced on Thursday, is the latest gambit to prove that the Armonk, NY, company is dead serious about ruling the content integration market. OPTIONS: -</s>
+37 Task: Give me some examples of how you can use a paper clip.</s>
+38 What are the rules of a sit-and-go poker tournament?</s>
+39 Shares of Mattel were down 13 cents to $ 19.72 on the New York Stock Exchange. Mattel shares were down 1.5 percent in early afternoon trading on the New York Stock Exchange. Are these two sentences paraphrases of each other? OPTIONS: - no - yes</s>
+40 Given the question: This is a correct answer to the following question about Bugatti Veyron. Yes or no? Answer: The original version has a top speed of. Question: how much does a bugatti veyron cost The answer is:</s>
+41 Consider the following text: blend the ingredients on high speed until smooth. Is it an appropriate continuation of the following text: Pour the mixture into a chilled glass and enjoy immediately.? Yes or No?</s>
+42 Compare and contrast traditional Taiwanese clothing with modern clothing trends.</s>
+43 Who painted Belshazzar's Feast between 1636/38 and Portrait of Titus in 1655? What is the answer?</s>
+44 Create a regular expression to match email addresses that start with a letter or number and end with a top-level domain.</s>
+45 Detect if the url has been blacklisted by google safe browsing api. Url: http://www.example.com/malicious-content Output:</s>
+46 Question: what year did yao ming enter nba? answer Output:</s>
+47 How do you do this: To harden balls of combined coconut flakes, powdered sugar, butter and corn syrup. OPTIONS: - Chill in the cabinet for an hour. - Chill in the fridge for an hour.</s>
+48 Answer the following question: Q: Beaches and deserts collect large deposits of what? Choices: - animals - plants - water - sand A: Answer:</s>
+49 Given two facts, generate a plausible hypothesis: "Fact 1: Plants grow better when exposed to sunlight. Fact 2: Plants are unable to produce their own food."</s>
+50 Is the sentiment of the following sentence positive or negative? is a really special walk in the woods. OPTIONS: - negative - positive</s>
+51 How to play guitar [step] Hold the guitar correctly. [substep] Sit with the guitar on your right thigh and the back of the guitar against your stomach. Are you holding the guitar correctly?</s>
+52 Do these questions have the same meaning? What is the best thing you know about Bangalore? What is the best thing you can do in Bangalore? OPTIONS: - no - yes</s>
+53 Classify the following sentence as either declarative, interrogative, imperative, or exclamatory: 'What time is it?'</s>
+54 Data: name = Alimentum, food = Indian, priceRange = more than £30, customer rating = high, area = city centre, near = Yippee Noodle Bar. Can you generate a sentence about this data?</s>
+55 Explain how a lemon battery works and identify the main components required to create one.</s>
+56 Tweet: Thinks he has the flu #fb Predict the sentiment of this tweet. OPTIONS: - negative - positive</s>
+57 Rearrange the letters in the given word in alphabetical order: "Word: elephant"</s>
+58 Classify the given text as either a compliment, complaint, or neutral statement.</s>
+59 Explain the beliefs and practices behind the superstition of "knocking on wood."</s>
+60 How do plant cells differ from animal cells? Options: - Plant cells have a cell wall, animal cells do not. - Animal cells have chloroplasts, plant cells do not. - Animal cells have a nucleus, plant cells do not. - Plant cells have cent</s>
+61 What is Fermat's Last Theorem and how was it solved?</s>
+62 Question: Who discovered the sense of touch? I found the following answer on Google: Touch is a crucial means of receiving information. Is that a correct answer? Yes or no.</s>
+63 Modified jarzynski relation?</s>
+64 What is the highest peak in North America?</s>
+65 Birthday Surprise<unk>br>Sam plans a surprise party for his girlfriend's birthday. He invites all her friends and family. On her birthday, Sam gives her a special gift. Instruction: Does this imply that "Sam's girlfriend knew about the surprise party"? Yes,</s>
+66 What are the best exercises for building abs? Can you recommend a workout routine for developing six-pack abs?</s>
+67 What part of a an area would a disco be found in? Choose the most suitable option to answer the above question. Options: - town - rio de janeiro - hotel - germany - club The answer to this question is:</s>
+68 Paraphrase the sentence so that its meaning changes slightly: "He is not a good liar."</s>
+69 Is this question asking for a shortened phrase or full sentence? What is the full sentence that the acronym "YOLO" represents?</s>
+70 Youre well and enjoy life because you arent owned Could you correct the punctuation please?</s>
+71 What is the significance of the rose in literature?</s>
+72 Taylor pressed Skylar's hands toward the book. Given that the answer to a question is "needed to find Skylar", what is the question? The answer to this question is:</s>
+73 Write a story about a time traveler who goes back to the medieval ages.</s>
+74 Identify the most salient words in this sentence: migrants are seen on an inflatable boat as they try to reach country</s>
+75 Provide an answer to the question: Who is the villain in The Dark Knight?</s>
+76 Describe a way to implement quicksort.</s>
+77 What are some challenges faced by American taxonomists in their research?</s>
+78 What role did English engineers play in the development of the industrial revolution?</s>
+79 He is like some great writers, from Charles Dickens to William Faulkner to Gabriel Garcia Marquez: the insistence on the value of the local leads to the universal. Question: Gabriel Garcia Marquez is a Nobel prize winner. True or False?</s>
+80 Can you recommend some good exercise routines for beginners?</s>
+81 instructions on how to bake a cake from scratch, including measurements and steps. can you capitalize the word "bake", since it is the action that needs to be taken?</s>
+82 (New York Times) What are the potential consequences of a government shutdown?</s>
+83 Where was <unk> I have fallen, and I can 't get up '' said first? Is this question asking for city, country, mountain, state, other location?</s>
+84 What are some of the most successful Disney Star franchises of all time?</s>
+85 What is join calculus?</s>
+86 Given two cities, find the distance between them. you can assume that all cities are located on the same landmass and you don't need to consider water as an obstacle.</s>
+87 the lely juno 150 features an inductive device sensor, which ensures the unit follows the pre-programmed routes accurately. Make this proper case</s>
+88 What is the relationship between traditionalist Catholicism and other branches of Christianity?</s>
+89 Explain the meaning of the phrase "spill the beans," and give an example.</s>
+90 Given this review: "Nice Good apk" Would you recommend this app to a friend? Not at all, No, Maybe, Yes, or Definitely?</s>
+91 Generate an animal-themed haiku.</s>
+92 Where would a brave squirrel be found? Choose the most suitable option to answer the above question. Options: - street - forest - tree - yard - park Answer:</s>
+93 Explain the concept of gravity like I am 5.</s>
+94 Explain how would you organize your bedroom if you had $100 to spend. Output:</s>
+95 Identify which sentence has a grammatical error in it. I went to the store and buy a new shirt.</s>
+96 Generate a context and a hypothesis.</s>
+97 Task: Identify the word that is used to describe something that a person does not like. I don't like the taste of broccoli.</s>
+98 Does the following review have a positive or negative opinion of the movie? your face for two hours OPTIONS: - negative - positive</s>
+99 Produce a long descriptive sentence that uses all these words: Cotto food Chinese; Cotto near Café Rouge</s>
+100 Share a few tips for staying motivated during a long-term project.</s>
+101 Solve -30 = -74*j - 474 for j. Solve this problem.</s>
+102 What are the causes and effects of climate change?</s>
+103 This house would ban plastic bags. What argument could one make about this debate topic?</s>
+104 Provide the name of the actor who played the lead role in "The Martian".</s>
+105 Dependency parsing for the sentence. Output the dependencies in lines, with each line formatted as (current word -> its head word): "The Scottish writer, Sir Walter Scott, is famous for his historical novels set in Scotland."</s>
+106 What is the sentiment of the following tweet? Tweet:@dd1165 you know you wish you had a man who got his nails done. OPTIONS: - negative - positive</s>
+107 Read the following paragraph and generate a hypothesis: Kendra Davis is a successful author who has published several best-selling novels. Her books have received critical acclaim for their engaging storylines and complex characters. Can we conclude that Kendra Davis is an inexperienced writer?</s>
+108 Imagine you are the last person on Mars. Write a diary entry describing your thoughts and feelings.</s>
+109 Can you advance me some money? To advance one's interests. Similar sense of advance?</s>
+110 Premise: "My reunion with the living would have to wait." Based on this premise, is the hypothesis "My visit to the living would have to be postponed until I finished one last task." true? OPTIONS: - yes - it is not possible to tell </s>
+111 Write a poem about a famous person in history.</s>
+112 What is the political catchphrase "drain the swamp" referring to?</s>
+113 Retrieve the location of the 3rd occurrence of the letter 'o' in a given string, but you cannot use any string manipulation functions or methods. Additionally, you must implement the solution using a recursive algorithm. String: "hello world"</s>
+114 What is the recipe for lasagna?</s>
+115 Solve 24 = u + 21 for u.</s>
+116 The renewed attention to the war came as peace activists, camping near the president's ranch, awaited a performance Sunday evening by peace movement icon Joan Baez. Based on that information, is the claim: "Joan Baez performed at near the president's ranch." true, false,</s>
+117 What is five divided by zero? Can you tell me the result of dividing any number with the number zero? Are these two questions similar? OPTIONS: - no - yes</s>
+118 Create a detailed budget for the given hypothetical trip: "A Domestic Trip in the U.S. (4 nights)"</s>
+119 Ignoring the order of the concepts: firefighter, respond, building; Generate a sentence with all the concepts :</s>
+120 What did some ancient societies use to reflect light? A -> wood B -> plants C -> clothing D -> rocks Is the right answer A, B, C or D?</s>
+121 Order the following planets from closest to farthest from the sun: Neptune, Venus, Mars, Saturn.</s>
+122 When Lisa went on vacation, she left her cat at the kennel so she wouldn't have to worry about it. Here, by "it" they mean "her cat". Yes or no?</s>
+123 Next question: statue from in the garden of good and evil?</s>
+124 What concepts are described in the following sentence? "Esther Kiplagat of Kenya won 10th with a time of 54 minutes and 42 seconds." Return the answer as pairs of triples.</s>
+125 Keywords: cat, stuff, toy What is a sentence that includes all these keywords?</s>
+126 The Empire State Building is a 102-story Art Deco skyscraper in Midtown Manhattan, New York City. It was designed by Shreve, Lamb & Harmon and completed in 1931. Is it correct to say that "The Empire State Building was completed in 1890"</s>
+127 Given a sentence, replace the first occurrence of a given word with a synonym: "The cat chased the mouse. cat"</s>
+128 The employee prepared for the meeting. Was this because...</s>
+129 A marmoset can be found many places, but they are usually found where? Choose the most suitable option to answer the above question. Options: A. rainforest B. in wild C. national park D. zoo E. american west</s>
+130 Politics: What is the impact of political attitudes and policies on social issues?</s>
+131 Are the questions "What attitudes do Mexicans have that Filipinos don't have?" and ""Is having a ""I don't care"" attitude bad?"" asking the same thing?</s>
+132 Based on the following situation, pretend you are a manager at a technology company addressing the team's concerns about a recent change in the project requirements.</s>
+133 Correct the spelling error in the following sentence: "I enjoy spendng time with my freinds."</s>
+134 Question: Kai took the two strange men she met at the party home with Casey. Given the context: How would Casey feel as a result? Possible answers: happy about the situation, cool with the situation, nervous about the situation Answer:</s>
+135 What is the concavity of a thermodynamic function?</s>
+136 What is the ground state energy for graphene?</s>
+137 Reorganize the given sentences and create a logical, cohesive story. Alice ordered her food. She started to eat. The food was delicious.</s>
+138 List all the important events in the biography: Nelson Mandela was born in South Africa, fought against apartheid, was imprisoned for 27 years, became the first black president of South Africa, and won the Nobel Peace Prize.</s>
+139 Objective: what is the best oil for frying? Which of the following solutions is more sound in terms of naive physics reasoning? OPTIONS: - a neutral oil, such as canola or peanut oil. - sesame or coconut oil, as long as</s>
+140 Implement the longest common subsequence algorithm in C.</s>
+141 Premise: A sound public infrastructure plays a vital role in the nation's capacity to produce goods and services in the future. Hypothesis: Infrastructure has no lasting effects. Does the premise entail the hypothesis? OPTIONS: - yes - it is not possible to tell </s>
+142 What are the names of the members of The Beatles?</s>
+143 Which Cuban artists have had the most impact on the international contemporary art scene?</s>
+144 Should border guards be allowed to ask for a person's social media account and password?</s>
+145 Which of these is equivalent to "The singer" in this sentence? The singer gave a spectacular performance, and she received a standing ovation from the audience. OPTIONS: - He - She</s>
+146 What are the top three best-selling Corvette classes in America?</s>
+147 What was the impact of the Great Depression on the automobile industry in the US during the 1930s?</s>
+148 Create a new type of sandwich.</s>
+149 when the roller is attached behind another implement, an extra long drawbar is available for better manoeuverability. Make this proper case</s>
+150 Which of these animals is a mammal, a reptile, and an amphibian respectively? Your options are: kangaroo, frog, and iguana. Provide your answer and a brief explanation for each choice.</s>
+151 Here are some concepts: mushroom, onion, pizza, spinach What is a sentence about these concepts?</s>
+152 How do you deal with people who treat you badly?</s>
+153 Add spaces between the words in the following text: HopefullythisguidewillhelpyoutothinkaboutalltheessentialswhenbookingtheperfectcampsiteforyourholidayinBarcelona.AlternativelyifyouwouldliketospendasmuchtimeaspossibleinBarcel</s>
+154 Write a story about a person who decides to move to a new town.</s>
+155 Canada photos of Canada travels to Canada Vancouver travels What is the correctly punctuated version of this sentence?</s>
+156 Give me an english sentence with the same meaning as the arabic sentence i gave you.</s>
+157 Which movie is being reviewed in the following excerpt? The compelling performances and brisk pacing make this courtroom drama a nail-biter from start to finish.</s>
+158 What is the topic of the sentence: [header] How to care for a diabetic cat [title] Monitor your kitty's water intake. [step] Cats with diabetes typically experience increased thirst and therefore increased water consumption. Keep track of how much water they are drinking to help manage</s>
+159 List the different types of collectible figurines that were popular in the 1980s.</s>
+160 What is the difference between a choropleth map and a dot density map?</s>
+161 List three types of renewable energy.</s>
+162 What are the primary factors that caused the fall of the Roman Empire?</s>
+163 Given two lists of words, find the common words between them. Input: ["cat", "dog", "mouse"] and ["house", "car", "tree"] Output:</s>
+164 Quiz Choose whether the word "strike" is used with the same meaning in the two following sentences. The clock strikes twelve. I want to strike up a conversation with her.</s>
+165 Q:Build a movie plot around this: Byron is wanted for what crime? murder A:</s>
+166 Knowing that "an electromagnet contains cylindrical ferrous metal", how would one answer "A common household item that may be a ferrous metal is" OPTIONS: - pans - make up - books - towels</s>
+167 Describe the cinematography of the film "Blade Runner 2049".</s>
+168 How to edit a Word document?</s>
+169 Task: Find out the most popular cocktail in a given city. City: New York</s>
+170 Q:- Body temperature rises - The brain tells blood vessels to dilate - The sweat glands become active - Moisture is released from the pores - The moisture evaporates What might be the last step of the process? A:</s>
+171 What concepts are described in the following sentence? "Located near Café Sicilia is The Dumpling Tree. It is a riverside coffee shop and its price range is £20-25. It's kids friendly." Return the answer as pairs of triples.</s>
+172 This is some data: Fitzbillies food French; Fitzbillies near The Six Bells. Generate a detailed description of this data</s>
+173 Here is a goal: forks Which way makes more sense to accomplish this goal? OPTIONS: - can hold babies - can hold food</s>
+174 Does the following review have a positive or negative opinion of the movie? cliche with little new added. OPTIONS: - negative - positive</s>
+175 If "The restaurant had a bad review in the newspaper, but Sarah loved the food.", can we conclude that "The food was actually good."? OPTIONS: - no - yes</s>
+176 Convert the following sentence into a question: "The dog chased the cat."</s>
+177 Predict the topic of the news article. 1) business; 2) politics; 3) sports; 4) entertainment; 5) technology. President Trump has announced that he will not be attending the White House Correspondents' Dinner.</s>
+178 Predict if the next word in a sentence is a verb, noun, adjective, etc. (using nlp techniques). output the part of speech label and the index of the word. Input: Sentence: Yay! Word index: 5 Output:</s>
+179 Question: Who has coached the minnesota vikings? Answer:</s>
+180 Japan to launch world's first wooden satellite into orbit. Which of the following sections of a newspaper would this article likely appear in? World News, Sports, Business, or Science and Technology?</s>
+181 Is the sentiment of the following sentence positive or negative? serry's ability to take what is essentially a contained family conflict and put it into a much larger historical context OPTIONS: - negative - positive</s>
+182 Task: How many cities are there in china? (hint: there are at least three, maybe more.)</s>
+183 Which category best describes the following question: Who is the prime minister of Japan? Choose from the following list: Description, Entity, Abbreviation, Person, Quantity, Location</s>
+184 What are some popular street foods found in Brazilian cuisine?</s>
+185 Synthesize a poem based on this prompt: "The sun is setting"</s>
+186 Identify the entity being asked about in the question "What is the scientific name for humans?"</s>
+187 What is the history of Japanese internment during World War II, and where can it be found in history museums?</s>
+188 What is the significance of Paul Bunyan in American folklore?</s>
+189 What is the equation of the line passing through the point (4,5) with slope 2?</s>
+190 Identify the logical fallacy in this argument: 'It rained heavily last night, therefore my car won't start this morning.'</s>
+191 Given the List [1,2,3,4,5], Output the average of the the list: "[1,2,3,4,5]"</s>
+192 Given the question "What is Bobby going to do first?" and the answer "Go to the restroom.", write a conversation that might have happened.</s>
+193 Provide a step-by-step guide on how to sail a Sloop class boat.</s>
+194 - title is emperor taish<unk> - mother is yanagihara naruko - spouse is teimei - birth date is august 31, 1879 - death place is hayama, kanagawa, japan -</s>
+195 Premise: It is for that reason I agreed to see them after I received your letter. Hypothesis: I agreed to see them after I received your letter for that reason. Is the hypothesis entailed by the premise? OPTIONS: - yes - it is not possible to</s>
+196 Does "A woman is riding a bike on the trail." mean that "A woman is hiking on the trail."? OPTIONS: - yes - it is not possible to tell - no</s>
+197 What are the environmental impacts of using Sapindaceae in traditional medicine?</s>
+198 First question: Is it wrong to be disgusted by fat people? Second question: What are fat people good at? Are these two questions asking the same thing? OPTIONS: - no - yes</s>
+199 Add spaces between the words in the following text: ForJYSKisitimportanttogiveourclientsallthepossibilitiesforbathingonlineandintradeshops.</s>
+200 What role did the Bay of Pigs invasion play in the Cold War?</s>
+201 Who was the Roman equivalent of the Greek Goddess Artemis? What is the answer?</s>
+202 Today is the day, fingers crossed <unk> What is the sentiment of this tweet? OPTIONS: - negative - positive</s>
+203 Instructions: Identify the type of energy transformation occurring in the following situations. OPTIONS: - Chemical <unk> Electrical <unk> Thermal - Mechanical <unk> Electrical - Thermal <unk> Mechanical <unk> Electrical - Nuclear <unk> Thermal <unk> Electrical</s>
+204 Give me a possible correct answer to the question "who was joseph pulitzer and what did he do?"</s>
+205 Use evidence from the fact that doing chores is a learned characteristic to answer this question: "A learned characteristic could be" OPTIONS: - Eye color - a cartwheel - freckles - Hair color</s>
+206 What will the narrator be working on in the near - future?</s>
+207 List some common tools and materials needed for painting walls.</s>
+208 Task: Given a date, tell me what day of the week it falls on. Input: Date: May 5, 2017 Output:</s>
+209 Premise: I'd much rather be shot. Hypothesis: I want to be pelted with beanbags instead of being shot. Does the premise entail the hypothesis? OPTIONS: - yes - it is not possible to tell - no</s>
+210 Write an email for me to my friend. in this email, you need to tell him about your vacation plans and ask his advice on what you should do in that place. Output:</s>
+211 Next question: who has scored the most touchdowns in nfl history?</s>
+212 Identify the logical fallacy and explain its flaws:</s>
+213 Given the premise "Mary scored the highest in the class on the math test", can we conclude that "Mary is the smartest student in the class." OPTIONS: - yes - it is not possible to tell - no</s>
+214 Explain the meaning of the Finnish word "sisu"</s>
+215 What are some popular tourist destinations in Chitral District, and why are they significant?</s>
+216 A website is selling two products, a and b. the price of product a increases by 10% every week. if you buy product a now, how much will it cost you at the end of 2 weeks? how about 4 weeks? 8 weeks?</s>
+217 If "Jane told Mark that she would meet him at 3 o'clock, so Mark arrived at 3 o'clock.", does it follow that "Jane arrived at 3 o'clock." OPTIONS: - no - yes</s>
+218 Would the following phrase be considered positive or negative? nights feels more like a quickie tv special than a feature film... it's not even a tv special you 'd bother watching past the second commercial break OPTIONS: - negative -</s>
+219 it does not distinguish itself from it. This is all lower case. Can you fix that?</s>
+220 Suppose a teacher tells their class, "We will have a quiz tomorrow." Can we infer that "there will be a quiz tomorrow"? Yes, no, or maybe?</s>
+221 Task: Write a function which takes in a string of letters and returns true if the input contains only vowels or false otherwise. abcdefghijk</s>
+222 Tell me whether the sentence contains any word that has more than 3 syllables. output true or false. Input: Sentence: The word "supercalifragilisticexpialidocious" has less than 3 syllables. Output:</s>
+223 Write a sentence that is about a restaurant with all the following properties: name = Wildwood, eatType = coffee shop, food = Italian, priceRange = moderate, near = Ranch</s>
+224 Write a tweet that is negative.</s>
+225 When a hurricane glides over a continent it A -> runs for president B -> becomes an earthquake C -> increases in strength D -> decreases in strength Is the right answer A, B, C or D?</s>
+226 Generate a context and a hypothesis.</s>
+227 Passage: My friend and I were supposed to meet at the restaurant, but she got lost on the way there. I waited for her, and when it finally arrived, we sat down to eat. Question: In the passage above, does the pronoun "it" refer to my</s>
+228 Task: Identify and correct the grammatical error(s). Input: He has been working for this company for many years. Output:</s>
+229 (CNN What are highlight points for this article?</s>
+230 How much PVC produced each year? Polyvinyl chloride (alternatively: poly(vinyl chloride), colloquial: polyvinyl, or simply vinyl; abbreviated: PVC) is the world's third-most widely produced synthetic polymer</s>
+231 What are some ethical concerns around the use of social software?</s>
+232 Keywords: museum, exhibit, learn</s>
+233 Is the word "charge" used in the same way in these sentences? I need to charge my phone. The bull charged at the matador.</s>
+234 Keywords: cover, edition, magazine What is a sentence that includes all these keywords?</s>
+235 What are some ways in which individuals and organizations can circumvent censorship?</s>
+236 Context: Michael was awarded a scholarship for his academic achievements. Question: Why was Michael awarded a scholarship?</s>
+237 Can you tell me the answer to who hit 6 sixes in 6 balls in cricket??</s>
+238 Given the following sentence, provide a context of a customer service scenario: "I apologize for the inconvenience."</s>
+239 You are given a list of words. output true if all the words form a valid english sentence, output false otherwise. Input: I, love, you. Output:</s>
+240 Write a program to find the largest number from a list of integers.</s>
+241 Add spaces between the words in the following text: VAP-SalesWorkplacestrong,fast,uncomplicated</s>
+242 Explain the process of photosynthesis.</s>
+243 What is the purpose of a fire extinguisher? - to put out fires - to start fires - to create fireworks - to make s'mores</s>
+244 Formulate a question requiring an understanding of the concept of force in physics.</s>
+245 Propose strategies for reducing food waste at home.</s>
+246 Suppose it's true that the presentation was boring. Should the presenter change their approach?</s>
+247 QUESTION 1 Which country is known for producing the famous car brand Ferrari?</s>
+248 Generate a sentence describing a seafood restaurant: name = Ocean's Bounty, eatType = restaurant, food = seafood, customer rating = 4.5 out of 5, priceRange = £££, area = waterfront, happyHour = yes, near = marina</s>
+249 Rewrite the following HTML code in valid XML syntax. <unk>html> <unk>head> <unk>title>My Page<unk>/title> <unk>/head></s>
+250 If "A tattooed man with long, bright colored socks, is doing a handstand on a skateboard.", can we conclude "A man is doing a handstand on a skateboard."? OPTIONS: - yes - it is not possible to tell </s>
+251 Sasha decided they needed to get in shape for an upcoming athletic tournament. Given the context: How would you describe Sasha? Possible answers: a very lazy person, a very athletic person, a very unfit person The answer to this question is:</s>
+252 Create a global function in Java to convert an integer number into its Roman numeral equivalent.</s>
+253 Find the sum of all the items in this array of integers, but only consider the positive integers. If there are no positive integers, return 0. Additionally, the solution must have a time complexity of O(n), where n is the length of the array.</s>
+254 I'll probably see you at the meeting. The 1960's saw the rebellion of the younger generation against established traditions. Question: Is the word'see' used in the same sense in the two sentences above?</s>
+255 Predict whether the person likes to watch football game or not. output yes or no. I don't like watching football game.</s>
+256 In a LaTeX document, how can I emphasize the emotion conveyed in the following sentence: "My heart sank when I saw the news"?</s>
+257 A report stated that the sales of electric cars increased by 25% this year. Does this mean that gas-powered cars will stop being produced in the future?</s>
+258 What are some of the major economic activities in the Himalayan region?</s>
+259 List all the adjectives in the sentence: the sun was shining brightly in the clear blue sky.</s>
+260 Provide three quotes from reviews that contribute to the critic consensus of "1203381-harry-potter-and-the-deathly-hallows-part-2".</s>
+261 Given He 'd gone. Philip had to get them back. His Dad would kill him if he found that he 'd taken them. Should we assume that "Philip had taken them" is true? Yes, no, or maybe?</s>
+262 Write a program in JavaScript to find all prime numbers up to a given limit using a for loop. Additionally, implement an optimization technique such as the Sieve of Eratosthenes to improve the efficiency of the algorithm.</s>
+263 Did PersonX start any companies that contributed to their billionaire status?</s>
+264 What's an example of a task that requires knowledge of physical objects to perform?</s>
+265 What actions are taken to prevent national security breaches?</s>
+266 This is the content of an email: I was told to RSVP to you for the Christmas Party. My wife Ann South and Myself Steve South Will attend. I am ENA gas trading What was the subject line for this email?</s>
+267 How to cook pizza in a microwave oven? The chef cooked the meal to perfection. Question: Is the word 'cook' used in the same sense in the two sentences above?</s>
+268 Task: Identify whether the news is about apple or not. News: Google has announced that it will release a new version of Android this year.</s>
+269 Wow! Really overpriced ugly pieces! Don't ever shop here! I don't know how this place is still in business. Ridiculous!!! Was this review given positively or negatively? OPTIONS: - negative - positive</s>
+270 @ThisismyiQ or (253) 773-6483....&quot;Blessd Nite&quot; How would the sentiment of this tweet be described? OPTIONS: - negative - positive</s>
+271 What is the history of traditional medicine in Finland?</s>
+272 How to make a fruit smoothie Add 1 banana, 1 cup of mixed berries, 1 cup of yogurt, and 1 cup of ice into a blender.</s>
+273 The phone rang. What happened?</s>
+274 Write a function in JavaScript to find the largest element in an array.</s>
+275 A recipe calls for baking soda. What is a common task when using baking soda in a recipe?</s>
+276 Describe a moment when the protagonist had to choose between fulfilling their lifelong dream or sacrificing it to please someone they love.</s>
+277 What is the phase of the copolymer in an emulsion?</s>
+278 Which is this about? Anaheim Angels: Troy Glaus was activated from the 60-day disabled list following a five-game rehab assignment in the minors and was back in the lineup for Sunday #39;s game against the Twins. OPTIONS: - World -</s>
+279 What is the least angle regression?</s>
+280 Suggest an environmentally friendly food retailer and explain how they are promoting sustainability.</s>
+281 Generate a movie review with negative sentiment.</s>
+282 Write down the ingredients you need to bake a cake</s>
+283 What are the economic opportunities and challenges related to tourism in the Colorado Plateau?</s>
+284 Does the word "invest" have the same meaning in these two sentences? Yes, No? She chose to invest her savings in stocks and bonds. The detective had to invest a lot of time and energy into solving the case.</s>
+285 Name a famous scientist who won a Nobel Prize.</s>
+286 Generate a context and a hypothesis.</s>
+287 Determine if the given equation is solvable: 5x + 10 = 35.</s>
+288 How has dub music evolved over time?</s>
+289 Come up with an essay on the importance of emotions in decision-making. No input</s>
+290 What are the benefits of practicing mindfulness meditation?</s>
+291 How many galaxies are visible to the naked eye?</s>
+292 on the dusty streets of haiti's largest slum, young men in baggy clothes lounge outside bullet-pocked shacks, listening for the rumble of armored vehicles carrying u.n. peacekeepers. Can you generate a</s>
+293 who needs love like this? What is the sentiment expressed by the reviewer for the movie?</s>
+294 Design a training program for employees on workplace safety protocols.</s>
+295 The following reports have been waiting for your approval for more than 4 days. Please review. Owner: Luiz T Maurer Report Name: LM 111301 Days In Mgr. Queue: 13 Owner: Susan J Mara Report Name: SJM11152001 Days In</s>
+296 Can you recommend some famous dessert shops that specialize in using carboxylate esters in their creations?</s>
+297 Does "charge" mean the same thing in these two sentences? Can you charge your phone? The queen ordered her soldiers to charge the enemy.</s>
+298 Here's a complex question that requires someone to reason about the input, can you answer it? Do Peter Billingsley and Jonathan Glazer have the same nationality? Answer:</s>
+299 Compare and contrast the advantages of online learning with traditional classroom learning.</s>
+300 Describe the steps or process involved in completing a given task or activity.</s>
+301 Can I replace the sentence WinFS will require that applications be rewritten to exploit such capabilities. with the sentence However, applications will have to be rewritten to take advantage of such capabilities. and have it mean the same thing?</s>
+302 Identify positive and negative aspects tied to building a new shopping mall in a residential area, and briefly explain the potential consequences of each.</s>
+303 Answer the question...where is most carbon stored in the carbon cycle??</s>
+304 Produce a detailed sentence about a restaurant using the following words: name = The Plough, eatType = pub, food = Fast food, familyFriendly = yes, near = Café Rouge</s>
+305 Q: What type of relationship occurs between organisms when one member benefits without affecting the other? A: Answer:</s>
+306 Does word "line" have the same meaning in the following two sentences? He has a smooth line but I didn't fall for it. Toe the line. OPTIONS: - different meanings - the same meaning</s>
+307 Combine sentences with a conjunction: She likes to read books. She also enjoys watching movies.</s>
+308 If seems like you're so busy anyway and then that's just one more thing to have to worry about so, can we conclude that ""It's just another worry on my mind that you are so occupied anyway.""? OPTIONS: - yes - it is</s>
+309 Explain the difference between a simile and a metaphor.</s>
+310 Provide a brief history of the Science Fiction genre.</s>
+311 How have Turkish sportswomen been breaking barriers in their respective fields?</s>
+312 Construct a brief dialogue between a waiter and a customer regarding their food preferences and dietary restrictions.</s>
+313 Meghan: R u a True Blue? Lily: Yep! I'm from Sydney but I used to live out woop woop ;) Meghan: I'm from NYC Lily: Meghan: Briefly summarize that dialogue.</s>
+314 How did the Susquehanna River play a role in the development of the Susquehanna Valley?</s>
+315 Title: christian right returns to grassroots to reverse political fortunes === Write an article with the given title:</s>
+316 Watch the performance and answer the question: What type of music is being performed? OPTIONS: - Classical - Jazz - It's impossible to say</s>
+317 Premise: A woman in a white jacket is smiling and holding a digital camera. Hypothesis: The man has a Polaroid camera..Given the premise, can we conclude the hypothesis? OPTIONS: - yes - it is not possible to</s>
+318 Task: You are given two sentences, tell me if they are related or not. possible relations include: 1) same person; 2) cause-effect; 3) compare-contrast; 4) give examples; 5) contrast. Sentence 1: I love playing basketball. Sentence 2:</s>
+319 This text is missing some spaces, please add them: FilesfromMacLionarealsodeletediftherearebadsectorsonMacharddisk</s>
+320 What are some common themes in underground literature?</s>
+321 He said he was feeling fine, but he kept coughing and sneezing throughout the day. What can we infer about his health?</s>
+322 Given a sequence of integers, determine if there exists a subsequence that sums up to zero. Input: [-2, -1, 0, 1, 2] Output:</s>
+323 Solution 1: Tear the packer open in the middle. Solution 2: Tear the packet open near the top. Goal: To open a salt packet. Given the goal, what is the correct solution? Answer by copying the correct solution</s>
+324 What is the economic impact of Phasmatodea on the ecosystems they inhabit, and how might their loss affect those ecosystems?</s>
+325 @JBomb11 haha I agree. Yayyy!! How would the sentiment of this tweet be described? OPTIONS: - negative - positive</s>
+326 List five different genres of music.</s>
+327 Describe some of the religious rituals and customs associated with Ramadan in Islam.</s>
+328 Sentence from a movie review: delivers a magnetic performance Was the movie seen positively or negatively based on the preceding review? OPTIONS: - negative - positive</s>
+329 Explain the process of making sourdough bread</s>
+330 Suggest a workout routine for someone who is new to exercise.</s>
+331 What is the solution? Solve -140*k - 175*k = 3261 - 426 for k.</s>
+332 Using the keywords name = The Vegan Cafe, eatType = cafe, food = vegan, area = trendy, customer rating = high, write a sentence that describes the following attributes of a restaurant.</s>
+333 Rewrite the following paragraph to make it more concise.</s>
+334 Tell me why the statement "If at first you don't succeed, try, try again" is a valuable piece of advice for achieving success.</s>
+335 List out travel destinations that are suitable for families with young children.</s>
+336 Homework Decide whether the word "save" is used with the same meaning in the two following sentences. Answer by yes or no. This will save you a lot of time. She saved the old family photographs in a drawer.</s>
+337 So you want a new you? Craig is definitely one of the best trainers I have worked with - focused, professional, humble honest - straight forward! Is this review positive or negative? OPTIONS: - negative - positive</s>
+338 Task: Explain what are some of the things you do to make sure you don't get sick when you travel?</s>
+339 Generate a sentence that describes all this information: The Eiffel Tower, structureType, wrought-iron lattice tower; The Eiffel Tower, height, 324 meters; The Eiffel Tower, location, Paris, France.</s>
+340 Write a dialog based on this summary: John got a job offer from a company in San Francisco. He accepted it and is moving next month.</s>
+341 Pakistani jet fighters and helicopter gunships launched air strikes on the South Waziristan tribal area bordering Afghanistan, killing dozens of people on Thursday, a witness said. Which is the best summary of this article? OPTIONS: - World - Sports - Business</s>
+342 This is a correct answer to the following question about Ronald Reagan. Yes or no? Answer: Some of his most notable films include Knute Rockne, All American (1940), Kings Row (1942), and Bedtime for Bonzo (1951). Question: what did ronald rea</s>
+343 Q:This is a correct answer to the following question about Automotive battery. Yes or no? Answer: When the battery is recharged, the chemical reaction is reversed: the lead sulfate reforms into lead dioxide and lead. Question: what are batteries made up of A:</s>
+344 Construct a JavaScript function that implements a fibonacci sequence. The function should not use recursion and should have a time complexity of O(n).</s>
+345 What are the main differences between street gangs in the United States and in Europe?</s>
+346 Despite the compelling premise, the pacing was slow and dragged on. Did anyone else feel like the movie could've been condensed into an hour and a half? The sentiment expressed for the movie is</s>
+347 Same meaning? Faiyaz Ali Khan was at Sir Muhammad Faiz Ali Khan in 1851. Muhammad Faiz Ali Khan was to Sir Faiyaz Ali Khan in 1851. OPTIONS: - no - yes</s>
+348 Tell me the lowdown about the internet of things.</s>
+349 Determine the combined tax amount for a restaurant bill using the given information.</s>
+350 Pick the option in line with common sense to answer the question. Questions: What is the legal consequence of killing likely to be? Options: - being imprisoned - no longer live - dies - fine - feeling of guilt A:</s>
+351 What are the four primary types of macromolecules, and what are their functions?</s>
+352 She closed the curtains. Which may be caused by "The sun was shining in her eyes." or "She wanted privacy."?</s>
+353 Choose the correct answer and explain your reasoning.</s>
+354 Question 1: What are the reviews of Udacity Android Nanodegree? Question 2: Can I get a high salary job if I complete all of Udacity’s free courses on Android? Are questions 1 and 2 asking the same thing? OPTIONS: - no </s>
+355 Describe a method for converting a string to a list of integers.</s>
+356 Explain the concept of the halo effect and provide an example of how it can impact decision-making.</s>
+357 Premise: A group of mothers are sitting and breast feeding their babies. Hypothesis: Mothers breastfeeding in a group..Given the premise, can we conclude the hypothesis? OPTIONS: - yes - it is not possible to tell - no</s>
+358 What is the impact of the pandemic on the game industry, and how are game manufacturers adapting to the situation?</s>
+359 Does the word "saving" have the same meaning in these two sentences? There was a saving of 50 cents. The shift of the supplier gave us a saving of 10 percent.</s>
+360 Trained volunteers are collecting baseline data on water quality, and testing for selected suspected contaminants of the coral reef. Does this next sentence follow, given the preceding text? The volunteers are trained. OPTIONS: - Yes - It's impossible to say - No</s>
+361 Edit the given SQL statement to select the top 3 entries with lowest price. SELECT * FROM products</s>
+362 What are your thoughts on the sentiment of this review: "The acting in the film was superb, but the plot was confusing and hard to follow."</s>
+363 Suggest a calming bedtime routine.</s>
+364 Do these mean the same? Each night Inspirica, Inc. houses approximately 300 people and each year serves more than 800 people. Inspirica, Inc. houses approximately 300 people and serves more than 800 people each year. OPTIONS: - no - yes</s>
+365 Write an article based on this summary: Determine your strategy for maintaining each relationship. Decide what you'll do if you encounter one boyfriend while spending time with the other. Decide how you'll handle social events. Decide how you'll handle social media. Schedule time for yourself.</s>
+366 The teacher graded the exams. Did you get a good grade in math?</s>
+367 The host lit candles on the table. What's the best option? - The room smelled of vanilla and lavender. - The power went out. We are looking for an effect</s>
+368 1. Initials can be placed either before or after their first name when they are used. 2. Initials, when placed, can be used either before or after their first name. Are these two sentences paraphrases of each other? OPTIONS: - no - yes</s>
+369 Which is an appropriate title for this article? The Japanese round of the World Rally Championship on the island of Hokkaido just missed a typhoon, and the weather has also affected the Japanese Grand Prix weekend. OPTIONS: - World - Sports - Business </s>
+370 Tweet: Two thumbs up Memorial Day Activity Sheets http://webfl.at/bxh2wm Predict the sentiment of this tweet. OPTIONS: - negative - positive</s>
+371 Passage: This book introduced Shakespeare to Goethe ; it was a fine selection of his writing. Question: In the passage above, does the pronoun "his" refer to Goethe? Answer:</s>
+372 What is p in the equation 2p - 5 = -13?</s>
+373 What comes after Tuesday?</s>
+374 Brainstorm a list of possible translations for the phrase "cool" in 21st-century slang from different countries and cultures.</s>
+375 Provide reasons for why diversity and inclusion are important in the workplace.</s>
+376 Rewrite the following paragraph using simpler words and shorter sentences.</s>
+377 Generate a tweet that has the following sentiment: positive</s>
+378 What are the rules of play for The Brier curling championship?</s>
+379 Ask a question about Paris.</s>
+380 Create a mathematical equation that involves a radical expression and at least three variables.</s>
+381 Are the following two sentences "equivalent" or "not equivalent"? The traffic accident caused a massive traffic jam on the highway. Due to the traffic accident, the highway was blocked, causing a significant traffic buildup.</s>
+382 Compose a poem in the Haiku style.</s>
+383 I am testing my students' logic. What is the answer they should choose between "ice" and "water"? Logic test: If you put an ice cube in a glass of water, which will take up more space? (A) ice cube (B) water</s>
+384 Question: What can lead to success? Choices: - Not trying at all - Giving up easily - Practice and hard work - Blaming others - Endless complaining</s>
+385 Compare and contrast the grammar and syntax of Mesoamerican languages with European languages.</s>
+386 Tell me about a time when you had to work with someone who didn't share your opinion. how did you handle it?</s>
+387 The video game is a thrilling adventure, but the controls are a bit clunky. How does the reviewer feel about the video game?</s>
+388 Write a function that takes two arrays, both containing integers, and outputs true if they have exactly one element in common, otherwise false. [1, 2, 3], [3, 5, 7] Output:</s>
+389 1 After this Job opened his mouth and cursed the day of his birth Please fix the punctuation.</s>
+390 Can you write a sentence about the topic lay?</s>
+391 The critic consesnsus is: Overcomes its formulaic storyline thanks to Anthony Hopkins' warm and endearing portrayal of an age-defying thrill seeker.. What reviews supported this critic consensus?</s>
+392 What are some advantages and disadvantages of mobile banking?</s>
+393 Rewrite the following paragraph to make it more concise and eliminate redundancy.</s>
+394 Question: where is the person who played "joey stivic" in all in the family? Would "With Gloria now separated from Mike, she returned to Archie Bunker's Place with Joey in the February 1982 episode "Gloria Comes Home."" be a reasonable</s>
+395 Write a python program to check if a string is a palindrome or not.</s>
+396 Write a script that will check if the given text is correct english. "I am a programmer and I love to code."</s>
+397 If I liked someone's photo on Instagram but they blocked me, would that like disappear or what? What happens when I block someone on instagram? Please tell me if those questions are the same. OPTIONS: - no - yes</s>
+398 Rewrite the sentence in affirmative form. He hasn't finished the project yet.</s>
+399 Explain the process of troubleshooting common issues that can arise when using a wireless router.</s>
+400 Sentence: The AIDAluna is 252 metres long, and its service was started on the 22nd of March, 2009. What structured data could we extract from this sentence?</s>
+401 What is the proper motion of a dwarf?</s>
+402 Choose between "A weightlifter" and "A person sleeping". Question: A person that is lifting weights will usually be _____ than someone sleeping (A) more sweaty (B) less sweaty</s>
+403 How do you do this: Treat poison ivy. OPTIONS: - Rub with coke soda. - Rub with mouth wash.</s>
+404 Is the following sentence linguistically acceptable? Dorothy needs new shoes. OPTIONS: - unacceptable - acceptable</s>
+405 Generate a positive review for a place.</s>
+406 Ask a question about BeiDou Navigation Satellite System.</s>
+407 Listen to the provided audio and answer the following question: Who is speaking?</s>
+408 What is the difference between an isotropic and anisotropic material in solid mechanics?</s>
+409 Finish the following sentence with the best choice: How can I make my candle burn slower? Choices: - Keep the candle in the oven before you use it. - Keep the candle in the freezer before you use it. Answer:</s>
+410 Generate a sentence that means the same thing as this one: " Ex-Im board members displayed courage and environmental leadership in the face of considerable pressure, " Jon Sohn of Friends of the Earth said after the panel's vote.</s>
+411 Produce a sentence which mentions all of these concepts: station, sunday, train</s>
+412 Data: Aleksandra Kova<unk>, birthPlace, Belgrade Sentence about the following data:</s>
+413 Please answer the following question: Addison would teach Sydney to read after she found a good book. Given the context: How would Sydney feel as a result? Possible answers: like a mean spirited person, like a good person, like a bad person A:</s>
+414 Trivia question: Betsy Ross was a figure in the history of the USA in what century? And the answer is?</s>
+415 Translate the Chinese sentence into English: "<unk>"</s>
+416 Generate a sentence that describes the following data: Accademia di Architettura di Mendrisio, country, Switzerland; Accademia di Architettura di Mendrisio, dean, Mario Botta; Switzerland,</s>
+417 Build a movie plot around this: What happens when Steve proposes to Stella? Stella rejects steve A:</s>
+418 What were some popular fashion trends in the 1990s?</s>
+419 What are some traditional cooking techniques used in Manchu cuisine?</s>
+420 Explain the concept of compound interest in simple terms.</s>
+421 Write a review of a book you recently read.</s>
+422 Create a semantically meaningful sentence</s>
+423 Explain the problem and its solution. Given an array of integers, find the sum of the two numbers that appear consecutively the most number of times. Output:</s>
+424 What is the probability of getting heads in coin toss? Output:</s>
+425 Provide a tutorial on how to create a petrological thin section.</s>
+426 The word "charge" has multiple meanings. Do they differ in sentences 1 and 2? Sentence 1: He was charged with a crime. Sentence 2: The phone needs to be charged.</s>
+427 Which harry potter character do you most identify with? why?</s>
+428 How do different cultures perceive and use flavors differently?</s>
+429 What is the answer? Context: In the U.S. News & World Report's "America’s Best Colleges" 2016 issue, KU’s School of Engineering was ranked tied for 90th among national universities.; Question: In what place did the engineering school at UK appear</s>
+430 Task: Choose one song from the list. tell me who sings it and its genre. then tell me how many times this artist has been nominated for grammy awards. Song: Bad Romance Artist: Lady Gaga Genre: Pop Nominations: 6</s>
+431 How do you properly use a fire extinguisher in case of a fire?</s>
+432 Read the following conversation and answer the question. F: What's that man? M: He's our new English teacher. Question: What subject does the man teach? - English. - Maths. - Chinese.</s>
+433 Describe the different rock formations that can be found in the Grand Canyon.</s>
+434 Given an example of a valid sentiment analysis scenario.</s>
+435 What is the mass of a neutrino?</s>
+436 when this is done, we will then swallow and we do this by using the tongue pushes the food toward the throat. Write the above sentence using proper case.</s>
+437 What is self-adjoint hamiltonians?</s>
+438 Generate a positive review for a place.</s>
+439 Muhammad Ali was an American professional boxer and cultural icon. He was known for his dynamic personality, quick wit, and athletic prowess. Ali was a three-time heavyweight champion and one of the most beloved athletes in history. Question: How many times was Muhammad Ali the heavyweight champion</s>
+440 What are the differences between a HTTP and HTTPS website?</s>
+441 How does guerrilla warfare differ from traditional warfare?</s>
+442 Tell me whether it's an odd-even day (1=odd, 0=even). 2/2/2017</s>
+443 What is the difference between a virus and a bacterial infection?</s>
+444 Offer a suggestion to a team leader for how to better incorporate diverse perspectives in decision-making processes.</s>
+445 Describe the properties of a right triangle in Euclidean geometry.</s>
+446 The student's work are not satisfactory, are they? How would you consider the previous sentence in terms of grammar and coherency? OPTIONS: - unacceptable - acceptable</s>
+447 Write some highlights for the following article: (CNN</s>
+448 Construct a sentence with the word soldier. Hint: Use village, walk, soldier to restrict the output sentence.</s>
+449 Here is a premise: "A brunette man is welding a stair rail." Here is a hypothesis: "The man is watering the lawn.".Does the premise tell us whether the hypothesis is true? OPTIONS: - yes - it is</s>
+450 Gentlemen, This is now back to being the CA Development I and II deal. Please change the name. Please send it to me and Lee Johnson tomorrow, if possible. Kay Write a subject line for this email.</s>
+451 How does this cleaning tip end? [header] How to clean stainless steel appliances [title] Choose a cleaning solution. [step] You can either use a commercial cleaner or make your own using white vinegar and water. [substeps] Mix equal parts of vinegar and water in a spray</s>
+452 Write a sentence about the following things: flower, insect, sun</s>
+453 Producers from the state are RJD2 ( Columbus ) and Drama Beats ( Akron ). Question: Producers of the state are RJD2 ( Columbus ) and Drama Beats ( Akron ). True or False?</s>
+454 List three types of birds that can fly.</s>
+455 Question: What style of architecture partially survived the war? Is "Pockets of Georgian architecture survived the war, but much of the city was levelled." the correct answer? OPTIONS: - yes - no</s>
+456 What is the relationship between ethics and politics according to Aristotle?</s>
+457 Does this phrase make sense? What can I do when My sharpie Pen dries out? soak the tip of the marker/pen in rubbing rags for about 10 min., it will soften and renew it. Answer with Yes or No</s>
+458 What is the cause in the sentence below? The water boiled and turned to steam. OPTIONS: - The pot was hot on the stove. - The water was cold.</s>
+459 How are the regulators different in d-dimensional space?</s>
+460 Generate a correctly punctuated version of the following text: Enhanced by silverygreen color</s>
+461 Who was the first woman to hold a political office in Bangladesh?</s>
+462 Does the sentence "The classification scheme, which was meant only to describe males, separated them into three basic categories: dionings, urnings and uranodionings." provide a valid answer to the question "When did Karl Heinrich Ulrichs develop this</s>
+463 Please answer the following question: Here's a question: What kind of call are you on if you're hearing several people over speakers? Here are possible answers to this question: - desktop - headphones - connect - concert - conference I believe the correct choice is "conference",</s>
+464 a picture of butterfly collection flowers pictures | wildflowers pictures | spring flowers pictures Can you repeat this sentence, but capitalize it correctly?</s>
+465 Build a novel plot around this: Who is the mysterious figure who keeps leaving cryptic messages for the main character?</s>
+466 Passage: Beth didn't get angry with Sally, who had cut her off, because she stopped and apologized. Question: In the passage above, does the pronoun "she" refer to Sally? Answer:</s>
+467 The following is an excerpt from a text message conversation between you and your friend. identify the emotion of each person in the conversation using emoji. Output:</s>
+468 What are some common predators of gastropods in their natural habitat?</s>
+469 Construct a multiple-choice question about a famous author. Provide the question, four answer choices, and indicate the correct answer.</s>
+470 Please choose the term that correctly matches the definition: A type of rock that forms from the solidification of lava or magma before it reaches the surface. Only one answer is correct among these 4 choices: - Igneous - Sedimentary - Metamorphic -</s>
+471 A couple is sitting on a bench, holding hands and smiling. What can we infer about the relationship between the couple based on this information?</s>
+472 Recommend three modern artists and their famous works that showcase their unique styles.</s>
+473 Describe the process of applying for a job.</s>
+474 Summarize the main point of the following paragraph.</s>
+475 Provide tips on how to effectively manage time and avoid procrastination.</s>
+476 Integration is a key factor with any large ERP implementation and ongoing maintenance, and Oracle Corp. is catching on. At its London-based OpenWorld event this week Oracle announced better integration between Which is the best summary of this article? OPTIONS: - World - Sports - Business </s>
+477 Provide a context in which a new restaurant has just opened in town. Formulate a hypothesis about the likelihood of the restaurant's success.</s>
+478 Is this restaurant review positive? Title: Great Experience Review: We had a great experience at this restaurant. The food was delicious and the service was outstanding. Highly recommend!</s>
+479 The lawyer asked the witness a question, but he was reluctant to repeat it. Here, by "he" they mean "the witness". Yes or no?</s>
+480 What is a droplet source?</s>
+481 Why do people ready gossip magazines? Choose the most suitable option to answer the above question. Options: - for a course - get information - improove know how - learn - entertained</s>
+482 Which engineering college in pune is best in sports like cricket? Do you think people lie a lot using anonymity? Are these two questions inquiring about the same information? OPTIONS: - no - yes</s>
+483 Generate a correctly punctuated version of the following text: Then our team of sports scientists serious athletes and service technicians of many years of experience evaluate the products of different categories</s>
+484 Can a person with no knowledge of electronics learn to program a microcontroller?</s>
+485 Answer the following question. Which British liner was sunk by a German submarine in 1915?</s>
+486 How does Jack convince Jill to go on a date with him?</s>
+487 Examine the concept of the social contract as presented by Thomas Hobbes.</s>
+488 Given my personality and interests, suggest a suitable vacation spot for me: "Personality: I am adventurous and enjoy trying new things. Interests: I love animals and am interested in wildlife conservation."</s>
+489 Given two words, output their similarity score. Words: "cat" and "dog"</s>
+490 Remove the spaces from the following sentence: This is a piece of the young man.</s>
+491 Tom went to the library to return his books. On his way, he found a wallet lying on the side of the road. He picked it up and took it with him to the library. Here, does "it" stand for the wallet? Yes or no?</s>
+492 Instructions for booking travel arrangements for the upcoming conference</s>
+493 Brainstorm a list of healthy snack options.</s>
+494 If "John stayed home from work because he was feeling ill." is true, does it mean that "John always skips work when he's sick." OPTIONS: - no - yes</s>
+495 How to play basketball?</s>
+496 What is the traditional Islamic architecture like in Pakistan?</s>
+497 Question: What did Kaypro CP/M computers use? Is "Operating systems such as DOS supported these code pages, and manufacturers of IBM PCs supported them in hardware." the correct answer? OPTIONS: - yes - no</s>
+498 Who is the Japanese god of the sea?</s>
+499 What is the controversy around the use of "he" as a default gender-neutral pronoun?</s>

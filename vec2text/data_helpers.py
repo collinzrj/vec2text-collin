@@ -104,6 +104,12 @@ def dataset_from_args(data_args: DataArguments) -> datasets.DatasetDict:
         raw_datasets = load_one_million_instructions()
         raw_datasets = raw_datasets.train_test_split(test_size=0.01)
         raw_datasets["validation"] = raw_datasets["test"]
+    elif data_args.dataset_name == "entity_prompts":
+        dataset_dict = datasets.load_dataset("jxm/private_prompts")
+        dataset_dict = dataset_map_multi_worker(dataset_dict, create_ompi_ex)
+        raw_datasets = dataset_dict["train"]
+        raw_datasets = raw_datasets.train_test_split(test_size=0.01)
+        raw_datasets["validation"] = raw_datasets["test"]
     elif data_args.dataset_name == "luar_reddit":
         all_luar_datasets = load_luar_reddit()
         raw_datasets = datasets.DatasetDict(

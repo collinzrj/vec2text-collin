@@ -11,7 +11,7 @@ from torch.optim.lr_scheduler import CosineAnnealingLR
 import numpy as np
 from datetime import datetime
 
-device = torch.device('cuda')
+device = torch.device('cpu')
 
 class CustomDataCollator(DataCollatorForWholeWordMask):
     def __init__(self, tokenizer, mlm=True, mlm_probability=0.15):

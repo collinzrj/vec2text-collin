@@ -96,6 +96,7 @@ class InversionFromLogitsModel(InversionModel):
         attention_mask: Optional[torch.Tensor],
         frozen_embeddings: Optional[torch.Tensor] = None,
     ) -> Tuple[torch.Tensor, torch.Tensor]:
+        # Note: call the embedder
         if frozen_embeddings is not None:
             embeddings = frozen_embeddings
             assert len(embeddings.shape) == 2  # batch by d
