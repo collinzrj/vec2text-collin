@@ -14,25 +14,6 @@ from tqdm import tqdm
 
 device = torch.device('cuda')
 
-class CustomDataCollator(DataCollatorForWholeWordMask):
-    def __init__(self, tokenizer, mlm=True, mlm_probability=0.15):
-        self.t5_tokenizer = AutoTokenizer.from_pretrained('t5-base')
-        self.roberta_tokenizer = AutoTokenizer.from_pretrained('roberta-base')
-        super().__init__(tokenizer=tokenizer, mlm=mlm, mlm_probability=mlm_probability)
-
-    def torch_call(self, examples: List[Union[List[int], Any, Dict[str, Any]]]) -> Dict[str, Any]:
-        for idx in range(len(examples)):
-            sentence = self.t5_tokenizer.decode(examples[idx]['input_ids'])
-            new_tokens = self.roberta_tokenizer.encode(sentence)
-            examples[idx]['input_ids'] = torch.tensor(new_tokens)
-        res = super().torch_call(examples)
-        logits_list = []
-        for e in examples:
-            logits_list.append(e['frozen_embeddings'])
-        res['logits'] = torch.stack(logits_list).to(device)
-        res['input_ids'] = res['input_ids'].to(device)
-        return res
-
 def find_slice(seq, subseq):
     n = len(seq)
     m = len(subseq)
@@ -42,44 +23,48 @@ def find_slice(seq, subseq):
     return (-1, -1)
 
 
-class EntityMaskCollator:
+class EntityMaskCollator(DataCollatorForLanguageModeling):
     def __init__(self):
         self.roberta_tokenizer = AutoTokenizer.from_pretrained('roberta-base')
         prompt_value_dict = {}
         original_dataset = datasets.load_dataset('jxm/private_prompts')
         for idx, data in tqdm(enumerate(original_dataset['train'])):
-            print(data)
             prompt_value_dict[data['prompt']] = (data['value'], data['field'], data['source'])
         self.prompt_value_dict = prompt_value_dict
+        # self.super()
 
     def torch_call(self, examples: List[Union[List[int], Any, Dict[str, Any]]]) -> Dict[str, Any]:
         res = {'input_ids': [], 'labels': [], 'logits': []}
+        max_batch_length = -1
         for idx in range(len(examples)):
             prompt = examples[idx]['suffix']
-            entity = self.prompt_value_dict[examples[idx]['suffix']]
             prompt_tokens = self.roberta_tokenizer.encode(prompt)
-            entity_tokens = self.roberta_tokenizer.encode(entity)
-            start_idx, end_idx = find_slice(prompt_tokens, entity_tokens)
-            if start_idx == -1:
-                raise LookupError
+            max_batch_length = max(max_batch_length, len(prompt_tokens))
+        for idx in range(len(examples)):
+            prompt = examples[idx]['suffix']
+            entity, _, _ = self.prompt_value_dict[examples[idx]['suffix']]
+            prompt_tokens = self.roberta_tokenizer.encode(prompt)
+            prompt_enc = self.roberta_tokenizer(prompt)
+            start_char_idx = prompt.find(entity)
+            end_char_idx = start_char_idx + len(entity) - 1
+            start_token = prompt_enc.char_to_token(start_char_idx)
+            end_token = prompt_enc.char_to_token(end_char_idx)
+            # pad with -1, which is token for <pad>
+            prompt_tokens = prompt_tokens + [1 for _ in range(max_batch_length - len(prompt_tokens))]
             prompt_tokens = torch.tensor(prompt_tokens)
             labels = torch.clone(prompt_tokens)
             tokens_mask = torch.zeros_like(prompt_tokens, dtype=torch.bool)
-            tokens_mask[start_idx:end_idx] = True
+            tokens_mask[start_token:end_token] = True
             prompt_tokens[tokens_mask] = 50264
             labels[tokens_mask == False] = -100
-            res['input_ids'].append(prompt_tokens)
-            res['labels'].append(labels)
-            res['logits'] = examples[idx]['frozen_embeddings']
+            res['input_ids'].append(prompt_tokens.to(device))
+            res['labels'].append(labels.to(device))
+            res['logits'].append(examples[idx]['frozen_embeddings'].to(device))
         for key in res.keys():
             res[key] = torch.stack(res[key])
         return res
 
 if __name__ == '__main__':
-    # config = InversionConfig.from_pretrained('test_save')
-    # config = InversionConfig.from_json_file('masked_config.json')
-    # model = InversionMaskedLogitsModel(config).to(device)
-    # TRAIN_NO_LOGITS = False
     if False:
         SAVE_FILE = 'logits_inversion_decoder_no_logits_not_causal_model'
         if True:
@@ -89,20 +74,19 @@ if __name__ == '__main__':
             model = InversionMaskedLogitsModel(config).to(device)
         model.use_logits = False
     else:
-        SAVE_FILE = 'logits_inversion_decoder_use_logits'
-        model = InversionMaskedLogitsModel.from_pretrained(SAVE_FILE).to(device)
+        SAVE_FILE = 'logits_inversion_decoder_use_logits_entity'
+        model = InversionMaskedLogitsModel.from_pretrained('logits_inversion_decoder_use_logits_entity').to(device)
         model.use_logits = True
-    train_dataset = datasets.load_from_disk('./logits_dataset/train')
-    val_dataset = datasets.load_from_disk('./logits_dataset/validation')
-    # t5_tokenizer = AutoTokenizer.from_pretrained('t5-base')
-    roberta_tokenizer = AutoTokenizer.from_pretrained('roberta-base')
-    collator = CustomDataCollator(tokenizer=roberta_tokenizer, mlm=True, mlm_probability=0.15)
-    train_loader = DataLoader(dataset=train_dataset, shuffle=True, collate_fn=collator, batch_size=96)
-    val_loader = DataLoader(dataset=val_dataset, shuffle=True, collate_fn=collator, batch_size=100)
+    train_dataset = datasets.load_from_disk('/root/entity_private_prompts_dataset/train')
+    val_dataset = datasets.load_from_disk('/root/entity_private_prompts_dataset/validation')
+    collator = EntityMaskCollator()
+    train_loader = DataLoader(dataset=train_dataset, shuffle=True, collate_fn=collator, batch_size=16)
+    val_loader = DataLoader(dataset=val_dataset, shuffle=True, collate_fn=collator, batch_size=16)
     EPOCH_NUM = 100
     optimizer = Adam(model.parameters(), lr=5e-6)
     total_iterations = len(train_loader) * EPOCH_NUM
     lr_scheduler = CosineAnnealingLR(optimizer=optimizer, T_max=total_iterations)
+    ACCUM_STEP = 4
     with open('run_masked.log', 'w') as f:
         f.write("")
     for epoch in range(EPOCH_NUM):
@@ -112,16 +96,17 @@ if __name__ == '__main__':
             optimizer.zero_grad()
             output: MaskedLMOutput = model(**samples)
             output.loss.backward()
-            optimizer.step()
-            lr_scheduler.step()
-            losses.append(output.loss.detach().cpu().numpy())
-            if (step % 100) == 0:
+            if (step + 1) % ACCUM_STEP == 0:
+                optimizer.step()
+                lr_scheduler.step()
+                losses.append(output.loss.detach().cpu().numpy())
+            if (step + 1) % (100 * ACCUM_STEP) == 0:
                 losses = [loss for loss in losses if not np.isnan(loss)]
                 with open(f'run_masked_epoch_{EPOCH_NUM}.log', 'a') as f:
                     f.write(f"{datetime.now().strftime('%H:%M:%S')} {epoch} {step} {np.average(losses)} {lr_scheduler.get_lr()}\n")
                 print(f"{datetime.now().strftime('%H:%M:%S')} {epoch} {step} {np.average(losses)} {lr_scheduler.get_lr()}")
                 losses = []
-            if (step % 1000) == 0:
+            if (step + 1) % (1000 * ACCUM_STEP) == 0:
                 model.eval()
                 with torch.no_grad():
                     losses = []
@@ -133,9 +118,10 @@ if __name__ == '__main__':
                         losses.append(output.loss.detach().cpu().numpy())
                         # mask_indices = torch.where(output.logits != 100)
                         # print(mask_indices)
-                        num_label = torch.sum(samples['labels'] != -100, dim=1)
+                        num_label = torch.sum(samples['labels'] != -100, dim=1).cpu()
                         predictions = torch.argmax(output.logits, dim=2).cpu()
-                        num_correct = torch.sum((samples['labels'] != -100) & (samples['labels'] == predictions), dim=1)
+                        labels = samples['labels'].cpu()
+                        num_correct = torch.sum((labels != -100) & (labels == predictions), dim=1)
                         acc = num_correct / num_label
                         avg_acc = torch.mean(acc[torch.isnan(acc) == False]).detach().cpu().numpy()
                         # print(acc)

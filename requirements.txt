@@ -12,4 +12,3 @@ sentence_transformers
 tenacity
 tokenizers
 tqdm
-./transformers
